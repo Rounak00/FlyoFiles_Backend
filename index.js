@@ -24,7 +24,7 @@ app.listen(PORT,()=>{
 
 
 // Schedule the cron job
-cron.schedule('* * 23 * * *', function() {
+cron.schedule('30 6 * * *', function() {
   ClearFileService();
 });
 

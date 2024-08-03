@@ -5,6 +5,7 @@ const FileSchema=require("../model/fileModel");
 const directory = "uploads";
 
 const ClearFileService=async ()=>{
+    console.log("Hello")
     fs.readdir(directory, (err, files) => {
         if (err) throw err;
       
