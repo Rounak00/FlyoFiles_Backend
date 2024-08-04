@@ -16,7 +16,7 @@
      MongoDB : Here we simple record all the file's name, local machine store path, file Id [default], count of download that file.
   </li>
   <li>
-     node-cron : We dont have unlimited storage in our loacl machine we do a automate task that is clear all files and collection of those files from Database, once everyday at 7:30am.
+     node-cron : We dont have unlimited storage in our loacl machine we do a automate task that is clear all files and collection of those files from Database, once everyday at 02:30pm.
   </li>
 </ul>
 
