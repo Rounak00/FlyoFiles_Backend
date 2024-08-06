@@ -1,5 +1,6 @@
 const express=require("express");
 const PORT=require("./config/secret").PORT;
+const NODE_ENV=require("./config/secret").NODE_ENV;
 const connection=require("./utils/connection");
 const routes=require("./router/router");
 const cors = require("cors");
@@ -19,6 +20,7 @@ app.use("/",routes);
 app.listen(PORT,()=>{
     console.log("App running at :",PORT);
     connection();
+    console.log("Process Dot ENV Dot NODE_ENV :", NODE_ENV);
 })
 
 
